@@ -17,7 +17,7 @@ Creating a new book from scratch should produce a folder with the following cont
 
 ![NewBook](/images/testbook.png)  
 
-The **content** folder will be the main hub for the main sections of your book. If you add a section, however, be sure to update the table of contents either manually (it resides in the **data** folder) or automatically by running:
+The **content** folder will be the hub for the main sections of your book. If you add a section, however, be sure to update the table of contents either manually (it resides in the **data** folder) or automatically by running:
 
 ![Toc](/images/toc.png)  
 
@@ -34,4 +34,17 @@ A new '_ build' folder should generate. Upload your book's contents to GitHub an
 Choose "master" from the **Source** drop-down menu. Assuming there are no build failures, you should be provided a link to your new book in roughly a couple minutes or so.
 
 ## Editing an Existing Book
-When adding content to a section,
+When adding content to a section, it's important to keep in mind the overall structure of jupyter-books. For example, to add a notebook page "Query" to an existing heading, navigate to the **content** folder (not the build). Say it has the following sections:
+
+![Pages](/images/content.png)  
+These folders correspond to the ordered sections within the **toc.yaml** file (table of contents):
+
+![Pages](/images/tocex1.png)  
+
+This section of the **toc.yaml** maps to folder _02_ from the **content** folder. The top _url_ field designates the path Jupyter-Book should send a user when clicking the main heading (in this case, the file "llc90plottingexamples"). Adding a notebook/file under the heading is as easy as dropping it into the heading folder and adding the _title_ and _url_ fields to match. Adding a "Query" page for instance would require the following edit to the above **toc.yaml** file:
+
+![Pages](/images/tocex2.png)  
+
+[Note: You can also accomplish this by generating a **toc.yaml** from the code above, but manually describing the change is recommended]. After you're finished, be sure to rebuild your book (using the steps listed above) and push the change to GitHub. If the book builds without error (and you've specified the path correctly), it should be listed under your heading:
+
+![Pages](/images/bookheadex.png)  
