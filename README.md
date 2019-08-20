@@ -15,7 +15,9 @@ You may also generate a standard example book to build off of by running:
 Creating a new book from scratch should produce a folder with the following contents:
 ![NewBook](/images/testbook.png)
 The **content** folder will be the main hub for the main sections of your book. If you add a section, however, be sure to update the table of contents either manually (it resides in the **data** folder) or automatically by running:
+<br>
 ![Toc](/images/toc.png)
+<br>
 To specify the order in which the sections should rank, naming the folders by the order in which they should list will do the job ("01", "02", "03"...).
 #### Building/Uploading Your Book
 Once your table of contents is generated and your content is well structured, you should be well-suited to _build_ your book. Building essentially allows GitHub and other services to understand and read your jupyter-book. Once you're ready, run the following:
