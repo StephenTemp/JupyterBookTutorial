@@ -3,7 +3,7 @@ A short, mildly comprehensive (and hopefully useful) guide on creating and displ
 
 ## Installing Jupyter-Book
 Run the following through your command line:
-![Install](/images/install)
+![Install](/images/install.png)
 
 ## Creating and Building your Book
 You can generate a new jupyter-book by running:
