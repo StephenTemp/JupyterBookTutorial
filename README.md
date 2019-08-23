@@ -43,7 +43,7 @@ Now that your account is up and running, it's time to create a new repository. Y
 1. If you're using the command line, navigate to your Jupyter-Book and enter it. Initialize this space as a new GitHub repository with the **git init** command. Once complete, run **git add -A** to add all the files in your book to the following _commit_. Run the commit (present on the cheat sheet) and connect it to GitHub using these instructions: [GitHubTutorial](https://kbroman.org/github_tutorial/pages/init.html).
 2. If you're using the desktop app, simply navigate to **add** and select **Create New Repository** as shown below:
 
-![Desktop Repo](/images/deskrepo.png)  
+![Desktop Repo](/images/deskrep.png)  
 
 Fill in the title (keep it the same as your Jupyter-Book) and create the new repository. Next, select **Publish Repository** from the top of the screen:
 
