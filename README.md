@@ -39,6 +39,7 @@ GitHub is a service that allows multiple programmers to edit files in an efficie
 - [Using the Command Line (Required)](https://help.github.com/en/articles/set-up-git)
 - [Using GitHub Desktop (Recommended)](https://desktop.github.com/)
 
+#### Creating a Repository for Your Jupyter-Book
 Now that your account is up and running, it's time to create a new repository. You may now use either GitHub Desktop or the command line. If you've chosen to use the command line, here's a helpful cheat sheet to aid you in following along: [Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)  
 1. If you're using the command line: Navigate to your Jupyter-Book and enter it. Initialize this space as a new GitHub repository with the **git init** command. Once complete, run **git add -A** to add all the files in your book to the following _commit_. Run the commit (present on the cheat sheet) and connect it to GitHub using these instructions: [GitHubTutorial](https://kbroman.org/github_tutorial/pages/init.html).
 2. If you're using the desktop app: Simply navigate to **add** and select **Create New Repository** as shown below:
@@ -49,7 +50,7 @@ Now that your account is up and running, it's time to create a new repository. Y
 
   ![Publish](/images/publish.png)  
 
-  Navigate back to your repositories and you should find your Jupyter-Book with all its contents. Follow the above instructions to learn how to utilize **Git Pages** to display your hard work.
+  Navigate back to your repositories and you should find your Jupyter-Book with all its contents. Whenever you make changes to your repository, you must **add**, **commit**, and **push** those changes. Follow the above instructions to learn how to utilize **Git Pages** to display your hard work.
 
 ## Editing an Existing Book
 When adding content to a section, it's important to keep in mind the overall structure of jupyter-books. For example, to add a notebook page "Query" to an existing heading, navigate to the **content** folder (not the build). Say it has the following sections:
